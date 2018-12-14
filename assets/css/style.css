@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'DINPro';
+    src: url('../fonts/DINPro-Regular_13937.ttf');
+}
+@font-face {
+    font-family: 'DINPro Bold';
+    src: url('../fonts/DINPro-Bold_13934.ttf');
+}
+
+@font-face {
+    font-family: 'Swiss Condensed';
+    src: url('../fonts/Swiss-721-Condensed-BT.ttf');
+}
+@font-face {
+    font-family: 'Swiss Condensed Light';
+    src: url('../fonts/Swiss-721-Light-Condensed-BT.ttf');
+}
+@font-face {
+    font-family: 'Swiss Bold';
+    src: url('../fonts/swz721b.TTF');
+}
+@font-face {
+    font-family: 'Swiss Bold Dois';
+    src: url('../fonts/SWZ721BC.TTF');
+}
+* {
+    outline: none;
+}
+a {
+    text-decoration: none!important;
+    cursor: pointer!important;
+}
+p {
+    line-height: 1.5;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1200px!important;
+    width: 100%;
+}
+.titulo-geral {
+    font-size: 33px;
+    font-family: 'DINPro Bold';
+    color: #6d1300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.topo {
+    background: url(../images/background.jpg) no-repeat top center;
+    height: 1250px;
+    background-size: cover;
+}
+.back-topo {
+    background: url(../images/topo.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+.logo {
+    width: 75%;
+    display: block;
+    margin: 0px auto;
+}
+.descricao1 {
+    font-size: 42px;
+    font-family: 'DINPro';
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.descricao2 {
+    font-size: 26px;
+    font-family: 'DINPro';
+    color: #fff;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.produtos {
+    margin-top: 40px;
+}
+.produtos .col-cinco {
+    width: 20%;
+    float: left;
+    padding: 0 10px;
+}
+.produtos .item {
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+}
+.produtos .item img {
+    width: 100%;
+}
+.produtos .content {
+    height: auto;
+    background: #dd426e;
+    padding: 10px 20px;
+}
+.produtos .content p {
+    font-size: 14px;
+    font-family: 'Swiss Condensed Light';
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+.produtos .botao {
+    font-size: 20px;
+    font-family: 'Swiss Condensed Light';
+    color: #6b1200;
+    text-transform: uppercase;
+    border: 5px solid #6d1300;
+    background: #ffe200;
+    border-radius: 50px;
+    padding: 18px 60px;
+    display: table;
+    margin: 70px auto;
+}
+.produtos .botao:hover {
+    color: #ffe200;
+    border: 5px solid #ffe200;
+    background: #6b1200;
+}
+.coracao a {
+    width: 35px;
+    height: 35px;
+}
+
+.formulario {
+    margin-bottom: 60px;
+}
+.formulario h2 {
+    margin-top: 80px;
+}
+.formulario .form {
+    padding: 0 50px;
+}
+.formulario label {
+    font-size: 16px;
+    color: #787777;
+}
+.formulario input {
+    height: 45px!important;
+    border-radius: 0!important;
+    border-bottom: 1px solid #b9b8b8!important;
+    border-top: 1px solid transparent!important;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+    margin-bottom: 30px;
+}
+.formulario button {
+    font-size: 20px;
+    font-family: 'Swiss Condensed Light';
+    color: #fff;
+    text-transform: uppercase;
+    background: #970e05;
+    border: 1px solid #970e05;
+    padding: 16px 80px;
+    border-radius: 50px;
+    margin: 30px auto;
+    display: block;
+}
+.formulario button:hover {
+    color: #970e05;
+    background: #fff;
+    border: 1px solid #970e05;
+}
+
+.ofertas {
+    background: #f6f5f5;
+    padding: 100px 0;
+}
+.ofertas h2 {
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.ofertas .item {
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+}
+.ofertas .item img {
+    width: 100%;
+}
+.ofertas .content {
+    height: auto;
+    background: #dd426e;
+    padding: 10px 20px;
+}
+.ofertas .content p {
+    font-size: 14px;
+    font-family: 'Swiss Condensed Light';
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+.ofertas .owl-stage-outer,
+.produtos .owl-stage-outer {
+    padding-bottom: 10px;
+}
+.ofertas .owl-dots,
+.produtos .owl-dots {
+    text-align: center;
+}
+.ofertas .owl-dots .owl-dot,
+.produtos .owl-dots .owl-dot {
+    display: inline-block;
+}
+.ofertas .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 5px;
+    background: #cdcccc;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.ofertas .owl-dots .owl-dot.active span,
+.produtos .owl-dots .owl-dot.active span,
+.ofertas .owl-dots .owl-dot:hover span,
+.produtos .owl-dots .owl-dot:hover span {
+    background: #9e0e06;
+}
+.produtos .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 5px;
+    background: #cdcccc;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.produtos .owl-dots .owl-dot.active span,
+.produtos .owl-dots .owl-dot:hover span {
+    background: #fff;
+}
+
+footer {
+    min-height: 130px;
+    background: #130402;
+}
+.redes-sociais {
+    float: left;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.redes-sociais a {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #eedfdd;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.redes-sociais i {
+    font-size: 18px;
+    color: #eedfdd;
+}
+.logo-footer {
+    position: absolute;
+    right: 0;
+}
+
+.produtos input{
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.produtos label {
+    cursor: pointer;
+    display: inline-block;
+    width: 36px;
+    height: 34px;
+    margin: 0;
+    background: url(../images/coracao1.png) no-repeat;
+}
+.produtos input:checked +.drinkcard-cc{
+    background: url(../images/coracao2.png) no-repeat;
+}
+.coracao {
+    position: relative;
+    float: right;
+    margin-bottom: -39px;
+    top: 10px;
+    right: 10px;
+}
+.formulario .termos {
+    font-size: 20px;
+    font-family: 'DINPro';
+    color: #a8a7a7;
+    position: relative;
+    top: -14px;
+    left: 10px;
+}
+.formulario p {
+    font-size: 16px;
+    font-family: 'Swiss Condensed';
+    color: #6d1300;
+    margin-bottom: 0;
+}
+.formulario p span {
+    font-family: 'Swiss Bold';
+}
+
+
+
+
+
+
+
+
+
+
+/* --- MOBILE --- */
+@media (max-width: 767px) {
+    .logo {
+        width: 100%;
+    }
+    .topo {
+        height: 800px;
+        background-size: cover;
+    }
+    .descricao1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .descricao2 {
+        font-size: 14px;
+    }
+    .produtos {
+        margin-top: 30px;
+    }
+    .produtos .col-cinco {
+        width: 50%;
+        padding: 0 5px;
+        margin-bottom: 10px;
+    }
+    .col-cinco.item-total {
+        width: 100%;
+    }
+    .produtos .content {
+        padding: 10px;
+    }
+    .produtos .content p {
+        font-size: 12px;
+    }
+    .back-topo {
+        height: 100px;
+        background-size: cover;
+    }
+    .produtos .botao {
+        font-size: 16px;
+        margin: 40px auto;
+    }
+    .titulo-geral {
+        font-size: 26px;
+    }
+    .formulario {
+        margin-bottom: 40px;
+    }
+    .formulario h2 {
+        margin-top: 50px;
+    }
+    .formulario .form {
+        padding: 0;
+    }
+    .formulario button {
+        margin: 20px auto;
+    }
+    .redes-sociais {
+        height: 90px;
+    }
+    .logo-footer {
+        position: relative;
+        width: 100%;
+    }
+    .coracao {
+        position: relative;
+        float: right;
+        margin-bottom: -39px;
+        top: 5px;
+        right: 5px;
+    }
+    .ofertas {
+        padding: 50px 0;
+    }
+    .ofertas h2 {
+        margin-bottom: 40px;
+    }
+    .ofertas .content {
+        padding: 10px;
+    }
+    .ofertas .content p {
+        font-size: 12px;
+    }
+    .formulario .termos {
+        font-size: 15px;
+        top: -18px;
+        left: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1180px) {
+    
+}
